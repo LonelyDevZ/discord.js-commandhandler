@@ -67,4 +67,4 @@ client.on("message", message => {
 });
 
 
-client.login(config.token /* If your token is stored in envorniment values use "process.env.TOKEN" */ );
+client.login(process.env.token);
